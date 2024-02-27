@@ -1,0 +1,59 @@
+html{
+    background-image: linear-gradient(to left bottom, #0066ff, #00a1ff, #00c6eb, #00e087, #a8eb12);
+    /* background-image: linear-gradient(to right top, #ff0000, #ff0041, #ff006f, #ec009b, #c500c3, #9e4fe4, #6970f8, #0087ff, #00b4ff, #00d6ff, #00f0a9, #00ff00); */
+}
+
+body{
+	font: 100%;
+    font-family: 'Times New Roman', Times, serif;
+	line-height: 1.5;
+	position: relative;
+	background: rgb(255, 255, 255);
+	color: rgb(76, 67, 65);
+	font-weight:normal;
+	font-style:normal;
+    margin: 20px;
+    padding: 20px;
+}
+
+form,div{
+	border-bottom: 2px solid rgb(76, 67, 65);
+	margin-bottom: 5em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50em
+}
+
+table,th,td{
+    border: 1px solid black;
+}
+
+h1{
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 1.8em;
+	border-bottom: 2px solid rgb(76, 67, 65);
+	margin-bottom: 1.5em;
+}
+
+.example_a{
+    border: none;
+    background: #404040;
+    color: #ffffff !important;
+    font-weight: 100;
+    padding: 20px;
+    text-transform: uppercase;
+    border-radius: 6px;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+    margin-top: 2em;
+}
+
+.example_a:hover{
+    color: #404040 !important;
+    font-weight: 700 !important;
+    letter-spacing: 3px;
+    background: none;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.3s ease 0s;
+}
